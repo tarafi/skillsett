@@ -84,7 +84,7 @@ export default function Home() {
             Skill Up with Purpose and Confidence
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
-            SkillSett.in is a learning and mentoring initiative dedicated to equipping students, graduates, and early professionals with future-ready skills.
+            skillsett.in is a learning and mentoring initiative dedicated to equipping students, graduates, and early professionals with future-ready skills.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">

@@ -30,7 +30,7 @@ const footerLinks = [
   },
   {
     title: "Resources",
-    links: [{ label: "AI Condenser", href: "/condenser" }],
+    links: [],
   },
 ];
 
@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
           {currentYear && (
-             <p>&copy; {currentYear} SkillSett.in. All rights reserved.</p>
+             <p>&copy; {currentYear} skillsett.in. All rights reserved.</p>
           )}
         </div>
       </div>

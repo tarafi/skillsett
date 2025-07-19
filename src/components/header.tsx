@@ -14,7 +14,6 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/why-learn-with-us", label: "Why Us" },
   { href: "/about", label: "About" },
-  { href: "/condenser", label: "AI Condenser" },
 ];
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {

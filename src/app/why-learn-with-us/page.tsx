@@ -35,7 +35,7 @@ const testimonials = [
   {
     name: "Amit Patel",
     role: "PhD Student",
-    quote: "SkillSett.in's course on AI tools for research saved me hundreds of hours. It's a must for any academic.",
+    quote: "skillsett.in's course on AI tools for research saved me hundreds of hours. It's a must for any academic.",
   },
 ];
 
@@ -64,7 +64,7 @@ export default function WhyLearnWithUsPage() {
         <div className="container">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl font-headline">
-              The SkillSett.in Advantage
+              The skillsett.in Advantage
             </h2>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-3">
@@ -92,7 +92,7 @@ export default function WhyLearnWithUsPage() {
               Success Stories
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              Hear what our learners have to say about their experience with SkillSett.in.
+              Hear what our learners have to say about their experience with skillsett.in.
             </p>
           </div>
           <div className="mt-12">
