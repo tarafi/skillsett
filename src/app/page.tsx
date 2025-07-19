@@ -88,7 +88,7 @@ export default function Home() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link href="/why-learn-with-us">
+              <Link href="/#workshops">
                 Explore Offerings <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>

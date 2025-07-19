@@ -12,8 +12,8 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/why-learn-with-us", label: "Why Us" },
   { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
