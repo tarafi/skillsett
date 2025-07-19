@@ -6,7 +6,7 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
-  title: 'SkillHub - Upskill with Purpose',
+  title: 'SkillSett.in - Upskill with Purpose',
   description: 'A learning and mentoring initiative dedicated to equipping students, graduates, and early professionals with future-ready skills.',
   icons: {
     icon: '/favicon.ico',

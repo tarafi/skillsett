@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
           {currentYear && (
-             <p>&copy; {currentYear} SkillHub (SkillSett.in). All rights reserved.</p>
+             <p>&copy; {currentYear} SkillSett.in. All rights reserved.</p>
           )}
         </div>
       </div>
