@@ -1,12 +1,11 @@
 import Link from 'next/link';
-import { Layers } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <Link href="/" className={cn('group flex items-center gap-2 text-2xl font-bold font-headline tracking-tight text-primary', className)}>
-      <Layers className="h-6 w-6 transition-transform group-hover:rotate-12" />
-      <span>skillsett.in</span>
+    <Link href="/" className={cn('group flex items-center', className)}>
+      <Image src="/logo.png" alt="skillsett.in logo" width={150} height={40} />
     </Link>
   );
 }
