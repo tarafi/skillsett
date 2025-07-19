@@ -8,7 +8,7 @@ const teamMembers = [
     name: "Dr. Alisha Rao",
     role: "Founder & Lead Mentor",
     bio: "With a PhD in Computer Science and over 15 years in academia and industry, Alisha is passionate about bridging the skills gap for the next generation.",
-    avatar: "https://placehold.co/100x100",
+    avatar: "https://placehold.co/100x100.png",
     hint: "professional woman",
     social: {
       linkedin: "#",
@@ -19,7 +19,7 @@ const teamMembers = [
     name: "Vikram Chen",
     role: "Head of Curriculum",
     bio: "Vikram is a data science expert with a knack for creating engaging, practical learning experiences that stick.",
-    avatar: "https://placehold.co/100x100",
+    avatar: "https://placehold.co/100x100.png",
     hint: "professional man",
     social: {
       linkedin: "#",
@@ -30,7 +30,7 @@ const teamMembers = [
     name: "Sunita Joshi",
     role: "Community Manager",
     bio: "Sunita fosters a supportive and collaborative learning community, ensuring every student feels welcome and empowered.",
-    avatar: "https://placehold.co/100x100",
+    avatar: "https://placehold.co/100x100.png",
     hint: "friendly woman",
     social: {
       linkedin: "#",

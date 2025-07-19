@@ -40,10 +40,10 @@ const testimonials = [
 ];
 
 const galleryImages = [
-  { src: "https://placehold.co/600x400", alt: "Students collaborating in a workshop", hint: "students collaborating" },
-  { src: "https://placehold.co/600x400", alt: "An online mentoring session in progress", hint: "online meeting" },
-  { src: "https://placehold.co/600x400", alt: "A student presenting their project", hint: "student presentation" },
-  { src: "https://placehold.co/600x400", alt: "A group of professionals at a networking event", hint: "professional networking" },
+  { src: "https://placehold.co/600x400.png", alt: "Students collaborating in a workshop", hint: "students collaborating" },
+  { src: "https://placehold.co/600x400.png", alt: "An online mentoring session in progress", hint: "online meeting" },
+  { src: "https://placehold.co/600x400.png", alt: "A student presenting their project", hint: "student presentation" },
+  { src: "https://placehold.co/600x400.png", alt: "A group of professionals at a networking event", hint: "professional networking" },
 ];
 
 export default function WhyLearnWithUsPage() {
