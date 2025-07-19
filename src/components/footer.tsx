@@ -1,7 +1,10 @@
+"use client";
+
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const socialLinks = [
   { name: "Twitter", icon: Twitter, url: "#" },
@@ -32,6 +35,12 @@ const footerLinks = [
 ];
 
 export default function Footer() {
+  const [currentYear, setCurrentYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="border-t bg-card">
       <div className="container py-12">
@@ -72,7 +81,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} SkillHub (SkillSett.in). All rights reserved.</p>
+          {currentYear && (
+             <p>&copy; {currentYear} SkillHub (SkillSett.in). All rights reserved.</p>
+          )}
         </div>
       </div>
     </footer>
